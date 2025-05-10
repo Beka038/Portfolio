@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Form</title>
+</head>
+<body class="body_2">
+    {% block content %}
+    <h1 class="about__title">Вот ваша обратная связь со мной</h1>
+    <h3>E-mail: {{email}}</h3>
+    <h3 class="info-block__text">Text: {{text}}</h3>
+    {% endblock %}
+    <form action="/">
+        <button class="form__button" type="submit">ДОМОЙ</button>
+    </form>
+</body>
+</html>
